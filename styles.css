@@ -1,0 +1,59 @@
+
+			body { background: #000; color: #bea83b; font-weight: bold; font-size: .75em; font-family: courier; }
+			.page { max-width: 990px; margin: 10px auto; border:#BEA83B 1px solid; }
+			.border { border:#BEA83B 1px solid; }
+			header { border-bottom:1px solid #BEA83B; }
+			.g33, .g66, .g50 { float:left; }
+			.g66 { width:66.5%; }
+			.g33 { width:33.2%; }
+			.g50 { width: 50%; }
+			.cb { margin:2px 1px 2px 2px; padding: 5px; }
+			h4 { font-size: 1.1em; color:#f8cd42; margin: 0 5px; text-transform:uppercase; }
+			.cb:after { 
+			   content: "."; 
+			   visibility: hidden; 
+			   display: block; 
+			   height: 0; 
+			   clear: both;	}
+			.invert { background:#F8CD42; color: #000000; }
+			.ta-center { text-align: center; }
+			.ta-right { text-align:right; }
+			.padded { padding: 8px 15px;}
+			.padded-sm { padding: 2px 8px; }
+			.imagebox { width:100%; height: 300px;}
+			ul { list-style:none; margin-left:0; padding-left:0px; text-transform:uppercase; padding-top:0; }
+			.imagetext { position:relative; z-index:5; padding:10px 0 10px 10px;}
+			.imagetext ul { margin-top:0; padding-top:0; }
+			.image { margin-top: -70px; width: 100%; position: relative; z-index: 3; }
+			table { width: 100%; }
+			th { text-align:left; border-bottom: 1px solid #BEA83B; }
+			table a { width: 100%;  color:#f8cd42; text-decoration: none; display:block; }
+			table a:hover, .active { color:#000000; background:#F8CD42; }			
+			.audiofeed, .operatornotes { height: 200px; overflow-y:scroll; overflow-x:hidden; }
+			.operatornotes p, .audiofeed p { margin-right: 10px; }
+			::-webkit-scrollbar {
+    width: 12px;
+}
+ 
+/* Track */
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: none; 
+    -webkit-border-radius: 0px;
+    border-radius: 0px;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+    -webkit-border-radius: 0px;
+    border-radius: 0px;
+    background: #F8CD42; 
+    -webkit-box-shadow: none; 
+}
+::-webkit-scrollbar-thumb:window-inactive {
+	background: #F8CD42; 
+}
+			.audiofeed p:nth-child odd { color:#f8cd42; }
+			.maintabs { margin:2px; }
+		.maintabs li { float:left; width: 150px; margin:2px; padding:5px 13px; text-align:center; }
+		.maintabs li a { text-decoration:none; color:#F8CD42; }
+		.maintabs li.invert a { color:#000000; }
